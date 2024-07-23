@@ -37,15 +37,15 @@ const Technologies = () => {
           variants={iconVariant(2.5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
+          className="rounded-2xl border-4 border-neutral-800 hover:bg-white transition duration-300 ease-in-out p-4"
         >
-          <FaHtml5 className="text-7xl text-orange-500" />
+          <FaHtml5 className="text-7xl text-orange-500 " />
         </motion.div>
         <motion.div
           variants={iconVariant(3)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
+          className="rounded-2xl border-4 border-neutral-800 hover:bg-white transition duration-300 ease-in-out p-4"
         >
           <FaCss3Alt className="text-7xl text-blue-400" />
         </motion.div>
@@ -53,7 +53,7 @@ const Technologies = () => {
           variants={iconVariant(5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
+          className="rounded-2xl border-4 border-neutral-800 hover:bg-white transition duration-300 ease-in-out p-4"
         >
           <IoLogoJavascript className="text-7xl text-yellow-400" />
         </motion.div>
@@ -61,7 +61,7 @@ const Technologies = () => {
          variants={iconVariant(4)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
+          className="rounded-2xl border-4 border-neutral-800 hover:bg-white transition duration-300 ease-in-out p-4"
         >
           <FaNode className="text-7xl text-green-500" />
         </motion.div>
@@ -69,7 +69,7 @@ const Technologies = () => {
           variants={iconVariant(6)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
+          className="rounded-2xl border-4 border-neutral-800 hover:bg-white transition duration-300 ease-in-out p-4"
         >
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
@@ -77,7 +77,7 @@ const Technologies = () => {
           variants={iconVariant(4)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
+          className="rounded-2xl border-4 border-neutral-800 hover:bg-white transition duration-300 ease-in-out p-4"
         >
           <DiMongodb className="text-7xl text-green-500" />
         </motion.div>

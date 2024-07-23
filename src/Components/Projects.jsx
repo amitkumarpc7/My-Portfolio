@@ -2,6 +2,12 @@ import React from "react";
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
 
+// const hover =()=>({
+//   hover:{
+//     scale:1.05,
+//   }
+// })
+
 const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
@@ -11,8 +17,7 @@ const Projects = () => {
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-3xl"
       >
-        {" "}
-        Projects{" "}
+        Projects
       </motion.h1>
       <div>
         {PROJECTS.map((project, index) => (
@@ -22,7 +27,7 @@ const Projects = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 0.5 }}
-              className="w-full lg:w-1/4"
+              className="w-full lg:w-1/4 hover:scale-105 transition duration-300 ease-in-out"
             >
               <img
                 src={project.image}
