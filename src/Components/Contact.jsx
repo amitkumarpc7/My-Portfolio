@@ -16,7 +16,7 @@ const Contact = () => {
         transition={{ duration: 0.5 }}
         className="my-10 text-center text-3xl"
       >
-        Connect With Me
+        Contact Me
       </motion.h2>
       <div className="text-center tracking-tighter">
         <motion.p
@@ -33,7 +33,7 @@ const Contact = () => {
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 1 }}
           href={`mailto:${CONTACT.email}`}
-          className=" hover:underline hover:bg-purple-600"
+          className=" hover:underline hover:text-purple-800"
         >
           {CONTACT.email}
         </a>

@@ -45,12 +45,11 @@ const Hero = () => {
               {HERO_CONTENT}
             </motion.p>
             <div className="hover:bg-white p-2 rounded-lg ">
-              {" "}
               <a
                 href={CV}
                 target="_blank" // for Opening the link in a new tab
                 rel="noopener noreferrer" // for best security practice for external links
-                className="text-purple-400 hover:text-purple-500 "
+                className="text-purple-400 hover:text-purple-500 md:hidden "
                 download="AmitCV.pdf" // for showing downloadedFile name
               >
                 <h2 className="text-transparent bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 hover:text-purple-900 bg-clip-text hover:bg-white text-center">

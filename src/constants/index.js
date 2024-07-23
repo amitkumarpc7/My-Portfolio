@@ -28,6 +28,7 @@ export const PROJECTS = [
   {
     title: "Podcast Platform",
     image: project1,
+    link: "https://podcast-platform7.netlify.app/",
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Redux","Firebase" ],
@@ -35,6 +36,7 @@ export const PROJECTS = [
   {
     title: "Financely-Finance Tracker",
     image: project2,
+    link: "https://podcast-platform7.netlify.app/",
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "React", "Firebase"],
@@ -42,6 +44,7 @@ export const PROJECTS = [
   {
     title: "Youtube Clone",
     image: project3,
+    link: "https://podcast-platform7.netlify.app/",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "Javascript"],
